@@ -27,9 +27,9 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
+    color: rgb(56, 182, 255);
     padding-bottom: 0.5rem;    
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(56, 182, 255);
 }
 
 .desktopMenuBtn{
@@ -51,9 +51,9 @@
 }
 
 .active{
-    color:yellow;
+    color:rgb(56, 182, 255);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(56, 182, 255);
 
 }
 
