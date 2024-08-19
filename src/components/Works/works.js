@@ -9,6 +9,10 @@ import ReactLogo from '../../assets/react.png';
 import MongoDBLogo from '../../assets/mongodb.png';
 import JavaLogo from '../../assets/java.png';
 import PythonLogo from '../../assets/python.png';
+import SQLLogo from '../../assets/sql.png';
+import SeleniumLogo from '../../assets/selenium.png';
+import PowerBILogo from '../../assets/powerBI.png';
+
 
 
 const Works = () => {
@@ -25,6 +29,12 @@ const Works = () => {
           <img src={BootStrapLogo} alt="Bootstrap logo" className="worksImg"/>
           <img src={MongoDBLogo} alt="MongoDB logo" className="worksImg"/>
           <img src={PythonLogo} alt="Python logo" className="worksImg"/>
+          <img src={SQLLogo} alt="SQL Logo" className='worksImg'/> 
+          <img src={SeleniumLogo} alt="SeleniumLogo" className='worksImg'/> 
+          <img src={PowerBILogo} alt="PowerBI Logo" className='worksImg'/> 
+
+          
+          
         </div>
         {/* <span className="worksDesc">
             I take pride in paying attention to the smallest details and making sure my work is pixel perfect. 
