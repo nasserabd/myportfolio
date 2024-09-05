@@ -52,6 +52,47 @@
     font-weight: 200;
 }
 
+.Container {
+    width: 100%;
+    padding: 70px 30px;  
+    position: relative;
+}
+
+.swiper-button-prev,
+.swiper-pagination,
+.swiper-button-next
+{
+    top: unset !important;
+    left: unset !important;
+    bottom: unset !important;
+    width: auto !important;
+    right: unset !important;
+    position: unset !important; 
+    
+}
+
+.button-swiper{
+    padding:20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-Arrangement{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    color:white;
+    font-size: 20px !important;  
+}
+
+
 @media screen and (max-width:720px){
     .skillBarText>p{
         font-size: 2vw;
@@ -70,4 +111,6 @@
     .skillBarText>h2{
         font-size: 5vw;
     }
+
 }
+
